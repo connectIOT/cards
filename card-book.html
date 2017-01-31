@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.card-frame {
+    box-sizing: border-box;
+    margin: auto;
+    border: groove 4px;
+    border-radius: 4px;
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+    height: 20cm;
+    overflow: auto;
+}
+
+.card-stack {
+    box-sizing: border-box;
+    width: 8cm;
+    min-width: 8cm;
+    max-width: 8cm;
+    margin: auto;
+    margin-top: 8px;
+}
+
+.card-stack-top-navtab {
+    box-sizing: border-box;
+    width: 6cm;
+    border: outset;
+    border-radius: 4px;
+    margin: auto;
+    background-color: #a0e0a0;
+    text-align: center;
+    transition: 0.3s;
+    border-top-left-radius: .75cm;
+    border-top-right-radius: .75cm;
+}
+
+.card-stack-top-navtab:hover {
+    background-color: #60e060;
+    border: inset;
+}
+
+.card-stack-bottom-navtab {
+    box-sizing: border-box;
+    width: 6cm;
+    border: outset;
+    border-radius: 4px;
+    margin: auto;
+    background-color: #a0e0a0;
+    text-align: center;
+    transition: 0.3s;
+    border-bottom-left-radius: .75cm;
+    border-bottom-right-radius: .75cm;
+}
+
+.card-stack-bottom-navtab:hover {
+    background-color: #60e060;
+    border: inset;
+}
+
+.card-stack-left-navtab {
+    box-sizing: border-box;
+    width: 0.75cm;
+    height: 12cm;
+    margin: auto;
+    display: inline-block;
+    background-color: #a0e0a0;
+    text-align: center;
+    transition: 0.3s;
+    border: outset;
+    border-radius: 4px;
+    border-top-left-radius: .75cm;
+    border-bottom-left-radius: .75cm;
+}
+
+.card-stack-left-navtab:hover {
+    background-color: #60e060;
+    border: inset;
+}
+
+.card-stack-right-navtab {
+    box-sizing: border-box;
+    width: 0.75cm;
+    height: 12cm;
+    margin: auto;
+    display: inline-block;
+    background-color: #a0e0a0;
+    text-align: center;
+    transition: 0.3s;
+    border: outset;
+    border-radius: 4px;
+    border-top-right-radius: .75cm;
+    border-bottom-right-radius: .75cm;
+}
+
+.card-stack-right-navtab:hover {
+    background-color: #60e060;
+    border: inset;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    transition: 0.3s;
+    width: 6cm;
+    max-width: 6cm;
+    min-width: 6cm;
+    height: 12cm;
+    max-height: 12cm;
+    margin: 6px;
+    background-color: #ffffe0;
+    overflow: auto;
+    display: inline-block;
+}
+
+.card:hover {
+    box-shadow: 0 8px 20px 0 rgba(0,0,0,0.4);
+}
+
+.container {
+    padding: -6px 12px;
+    border: groove 4px ;
+    border-radius: 8px;
+    margin: 8px;
+    height: 40%;
+    overflow: auto;
+}
+
+img {
+    vertical-align: bottom;
+    transition: 0.3s;
+    opacity: 1.0;
+    width: 90%;
+    margin: .3cm;
+    margin-top: 0;
+}
+
+img:hover {
+    opacity: 1.0;
+}
+
+p {
+    margin: 6px;
+}
+
+h4 {
+    margin: 8px;
+}
+
+h3 {
+    vertical-align: middle;
+    text-align: center;
+}
+
+</style>
+</head>
+
+<body>
+
+<div>
+
+<div class="card-frame" style="width:60%">
+
+<div class="card">
+  <div class="container">
+    <h4><b>Valis</b></h4>
+    <p>Dick, Philip K.</p>
+    <p>Science Fiction</p>
+    <p>isbn:0-553-14156-2</p>
+    <p>oclc:7066446</p>
+    <p>1981</p>
+  </div>
+  <img src="VALIS(1stEd).jpg" alt="Valis">
+</div>
+
+<div class="card">
+  <div class="container">
+    <h4><b>The Man in the High Castle</b></h4>
+    <p>Dick, Philip K.</p>
+    <p>Science Fiction</p>
+    <p>813.54</p>
+    <p>oclc:145507009</p>
+    <p>1962</p>
+  </div>
+  <img src="The_Man_in_the_High_Castle.jpg" alt="The Man in the High Castle">
+</div>
+
+<div class="card">
+  <div class="container">
+    <h4><b>Kind of Blue</b></h4>
+    <p>Davis, Miles</p>
+    <p>Modal Jazz</p>
+    <p>Columbia</p>
+    <p>1959</p>
+  </div>
+  <img src="220px-MilesDavisKindofBlue.jpg" alt="Kind of Blue">
+</div>
+
+</div>
+
+<div class="card-frame" style="width:39%">
+  <div class="card-stack">
+    <div class="card-stack-top-navtab">
+      <p><b>Media Cards</b></p>
+    </div>
+    <div class="card-stack-left-navtab">
+      <p><b></b></p>
+    </div>
+    <div class="card" style="margin:auto">
+    </div>
+    <div class="card-stack-right-navtab">
+      <p><b></b></p>
+    </div>
+    <div class="card-stack-bottom-navtab">
+      <p><b>>/<</b></p>
+    </div>
+  </div>
+</div>
+
+</div>
+</body>
+</html>
